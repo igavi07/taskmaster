@@ -1,0 +1,11 @@
+# TaskMaster: Advanced System Process Management Tool
+
+## Solution Description:
+
+TaskMaster is a streamlined system monitoring tool that enhances computer performance management through an intuitive interface. It displays real-time process data while tracking historical performance trends, allowing users to identify resource-intensive applications and system bottlenecks. 
+
+The application combines process monitoring, performance visualization, and data analysis in one cohesive platform. Its dark-themed interface presents the top system processes with color-coded resource usage indicators, while interactive charts display CPU, memory, and disk utilization patterns. TaskMaster's background monitoring thread collects data without impacting system performance, storing information in a compact SQLite database for trend analysis.
+
+Users can manage processes, view performance metrics, and analyze historical data through dedicated interface sections. The integration of pandas for data analysis and matplotlib for visualization transforms raw system data into actionable insights, helping users optimize performance and troubleshoot issues efficiently.
+
+TaskMaster bridges the gap between basic task managers and complex monitoring suites, providing essential functionality for both casual users and IT professionals in a lightweight, accessible package.
